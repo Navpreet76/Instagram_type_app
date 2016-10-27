@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.row{
+	background-color: #DC143C;
+}
+#imageborder img{
+	overflow: hidden;
+	height: auto;
+	width: auto;
+	border: 20px solid white;
+}
